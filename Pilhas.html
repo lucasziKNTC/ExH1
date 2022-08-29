@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
-      body {background-color: #4682B4;}
+      body {background-color: #A52A2A;}
       div.resultados {
         width: 700px;
-        border: 5px solid black;
+        border: 2px solid black;
         border-radius: 12px;
         background-color: rgb(235, 232, 232);
         padding: 50px;
@@ -23,8 +23,8 @@
         font-weight: bold;
        }
        button {
-        background-color: 	#B0E0E6;
-        color: black;
+        background-color: 	#A52A2A;
+        color: rgb(235, 232, 232);
         border-radius: 25px;
         width: 150px;
         height: 30px;
@@ -32,8 +32,9 @@
         font-weight: 600;
        }
        button:hover {
-        box-shadow: 3px 3px 5px #EEE8AA;
+        box-shadow: 3px 3px 5px black;
         transition: 0.2s;
+        color: black;
        }
     </style>
 
@@ -43,20 +44,20 @@
     <div class="all">
       <div id="MaiorElemento" class="resultados">
         <p>Clique para descobrir o maior elemento</p>
-        <button onclick=maiorElemento() class="button">Clique aqui!</button>
+        <button onclick=maiorElemento() class="button">Clique</button>
       </div>
       <div id="MenorElemento" class="resultados"> 
         <p>Clique para descobrir o menor elemento</p>
-        <button onclick=menorElemento()>Clique aqui!</button>
+        <button onclick=menorElemento()>Clique</button>
       </div>
       <div id="MediaDoArray" class="resultados">
         <p>Clique para descobrir a media dos arrays</p>
-        <button onclick=mediaArray()>Clique aqui!</button>
+        <button onclick=mediaArray()>Clique</button>
       </div>
     </div>
     <div id="Diferenca" class="resultados">
       <p>Clique para descobrir se os arrays sao iguais</p>
-      <Button onclick=difArray()>Clique aqui!</Button>
+      <Button onclick=difArray()>Clique</Button>
     </div>
 
     <script src="ExH1.js"></script>
